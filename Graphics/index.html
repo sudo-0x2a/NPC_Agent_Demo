@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI NPC Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a1929;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        
+        #game {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            box-shadow: 0 0 40px rgba(74, 127, 181, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="game"></div>
+    <script src="/node_modules/phaser/dist/phaser.min.js"></script>
+    <script src="/interface/game.js"></script>
+</body>
+</html>
+
